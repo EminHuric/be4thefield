@@ -1,4 +1,5 @@
 <script setup>
+<<<<<<< HEAD
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
@@ -82,4 +83,21 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
+=======
+import Menu from './components/menu.vue'
+import Intro from './components/intro.vue'
+</script>
+
+<template>
+  <Menu />
+  <Intro />
+  <div class="content">
+    <h2 style="margin-top: 200px;">Ovo je deo ispod Intro-a</h2>
+    <p>Ovde možeš slagati dalje sekcije...</p>
+  </div>
+</template>
+
+
+<style scoped>
+>>>>>>> e0d0d82 (Initial commit)
 </style>

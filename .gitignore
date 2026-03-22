@@ -8,21 +8,31 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+<<<<<<< HEAD
 .DS_Store
 dist
 dist-ssr
 coverage
+=======
+dist
+dist-ssr
+>>>>>>> e0d0d82 (Initial commit)
 *.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
+<<<<<<< HEAD
+=======
+.DS_Store
+>>>>>>> e0d0d82 (Initial commit)
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 
 *.tsbuildinfo
 
@@ -37,3 +47,5 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+=======
+>>>>>>> e0d0d82 (Initial commit)

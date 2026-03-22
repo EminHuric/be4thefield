@@ -20,7 +20,6 @@
     margin-top: -540px;
     height: 720px;
 }
-
 .container {
     display: flex;
 }
@@ -76,27 +75,28 @@
         width: 104%;
         position: absolute;
         margin-top: -20px;
+        height: 106vh;
     }
     .s {
         text-align: center;
         width: 90%;
-        margin: 40px auto;
+        margin: 250px auto;
         font-size: 40px;
     }
     .p {
         text-align: center;
         font-size: 18px;
         width: 90%;
-        margin: -40px auto;
+        margin: -230px auto;
     }
     .logo {
         margin-top: 500px;
     }
     .btn1 {
-        margin: 70px auto;
+        margin: 250px auto;
     }
     .btn2 {
-        margin: 70px auto;
+        margin: 250px auto;
     }
 }
 </style>

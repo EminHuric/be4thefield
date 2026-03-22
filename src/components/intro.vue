@@ -20,6 +20,7 @@
     margin-top: -540px;
     height: 720px;
 }
+
 .container {
     display: flex;
 }

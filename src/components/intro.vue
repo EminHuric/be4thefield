@@ -7,8 +7,8 @@
             i pristupačnijim kako učenicima, tako i profesorima.</p>
 
         <div class="container">
-            <button class="btn1">O nama</button>
-            <button class="btn2">Proizvodi</button>
+            <a href="#onama"><button class="btn1">O nama</button></a>
+            <a href="#product"><button class="btn2">Proizvodi</button></a>
         </div>
         <img src="/logo-black.jpeg" alt="lgo" class="logo">
     </div>

@@ -20,7 +20,7 @@
                 da učenje bude uzbudljivo i inspirativno.
         </p>
         <p class="product-price">1699.99 RSD</p>
-        <button class="buy-btn">Kupi</button>
+        <a href="#kontakt"><button class="buy-btn">Kupi</button></a>
       </div>
     </div>
   </section>

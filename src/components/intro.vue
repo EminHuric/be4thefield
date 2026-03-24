@@ -80,7 +80,7 @@
 @media (max-width: 1024px) {
     .intro {
         width: 108%;
-        height: 90%;
+        height: 10%;
         
     }
 

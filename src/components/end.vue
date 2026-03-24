@@ -20,21 +20,19 @@
 </template>
 
 <script setup>
-// 10+ komentara
+
 const comments = [
-  { text: 'Bilo je interesantno, dolazite češće.', author: 'Učenik 8. razreda' },
-  { text: 'Deca su došla presrećna kući i odmah smo naručili 2 kompleta.', author: 'Roditelj' },
-  { text: 'Igra je bila jako zanimljiva.', author: 'Učenik 7. razreda' },
-  { text: 'Svi su bili jako divni.', author: 'Učenik 7. razreda' },
-  { text: 'Puno je efikasnije i lakše raditi uz ovu igru.', author: 'Nastavnik' },
-  { text: 'Igra mi se svidela i baš je korisna.', author: 'Učenik 8. razreda' },
-  { text: 'Divni ste i baš je zanimljivo.', author: 'Učenik 7. razreda' },
-  { text: 'Lepa ideja i sve pohvale.', author: 'Učenik 7. razreda' },
-  { text: 'Igra je veoma kreativna i podstiče razmišljanje.', author: 'Učenik 8. razreda' },
+  { text: 'Oduševljeni smo igrom! Učenje geografije nikad nije bilo zabavnije!', author: 'Učenik 7. razreda' },
+  { text: 'Savršena kombinacija zabave i edukacije. Moji učenici je obožavaju!', author: 'Nastavik geografije' },
+  { text: 'Igra podstiče kreativno razmišljanje i brže savladavanje gradiva.', author: 'Učenik 8. razreda' },
+  { text: 'Divna aktivnost za celu učionicu, deca su motivisana i angažovana..', author: 'Nastavnik' },
+  { text: 'Sjajan način da učenici brzo povežu teoriju sa praksom.', author: 'Nastavnik' },
+  { text: 'Lepo dizajnirana, edukativna i super interaktivna!', author: 'Učenik 8. razreda' },
+  { text: 'Igra je kreativna i vrlo efikasna, odličan dodatak nastavi.', author: 'Učenik 7. razreda' },
+  { text: 'Moja deca su presrećna! Odmah smo naručili dva kompleta.', author: 'Roditelj' },
+  { text: 'Preporučujemo svim školama, ova igra zaista menja pristup učenju!', author: 'Direktor skole' },
   
 ]
-
-// dupliramo niz za infinite efekat
 const doubledComments = [...comments, ...comments]
 </script>
 

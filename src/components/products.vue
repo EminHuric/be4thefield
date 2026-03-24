@@ -1,5 +1,5 @@
 <template>
-  <section class="product-section">
+  <section class="product-section" id="product">
     <h2 class="subtitle">Proizvodi</h2>
     <h1 class="title">Naša igra</h1>
 

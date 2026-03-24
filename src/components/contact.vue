@@ -1,5 +1,5 @@
 <template>
-  <section class="contact-section">
+  <section class="contact-section" id="kontakt">
     <div class="container">
       <h2 class="subtitle">Kontakt</h2>
       <h1 class="title">Pošaljite nam poruku</h1>

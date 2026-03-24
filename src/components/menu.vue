@@ -4,9 +4,9 @@
 
         <nav class="menu">
             <a href="#">Početna</a>
-            <a href="#">O nama</a>
-            <a href="#">Proizvodi</a>
-            <a href="#">Kontakt</a>
+            <a href="#onama">O nama</a>
+            <a href="#product">Proizvodi</a>
+            <a href="#kontakt">Kontakt</a>
         </nav>
         <p class="cart"><i class="fa-solid fa-cart-shopping"></i></p>
 
@@ -20,11 +20,11 @@
 
         <!-- MOBILE MENU -->
     <div :class="['mobileMenu', menuOpen ? 'active' : '']">
-      <a href="#">Početna</a>
-      <a href="#">O nama</a>
-      <a href="#">Proizvodi</a>
-      <a href="#">Kontakt</a>
-    </div>
+  <a href="#" @click="toggleMenu">Početna</a>
+  <a href="#onama" @click="toggleMenu">O nama</a>
+  <a href="#product" @click="toggleMenu">Proizvodi</a>
+  <a href="#kontakt" @click="toggleMenu">Kontakt</a>
+</div> 
 
     </div>
 </template>
@@ -64,7 +64,7 @@ const toggleMenu = () => {
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
-  background: rgb(47, 46, 46);
+  background: rgb(25, 25, 25);
   border-radius: 10px;
   text-align: center;
   padding: 20px 0;
@@ -87,7 +87,7 @@ const toggleMenu = () => {
 }
 .border {
     border: 1px solid rgb(29, 28, 28);
-    height: 180px;
+    height: 160px;
     width: 100%;
     position: fixed;
     background-color: black;
@@ -96,8 +96,9 @@ const toggleMenu = () => {
     z-index: 99;
 }
 .logo {
-    height: 180px;
+    height: 160px;
     margin: 0 20%;
+    border-radius: 12px;
 }
 .menu {
     margin-top: -100px;

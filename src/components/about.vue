@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="about" id="onama">
     <div class="container">
 
       <h2 class="subtitle">Naš nastanak</h2>
@@ -18,6 +18,7 @@
   padding: 80px 20px;
   background: #ffffff;
   color: #111;
+  margin-top: 50px;
 }
 
 .container {

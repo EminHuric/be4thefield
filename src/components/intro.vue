@@ -53,7 +53,7 @@
 }
 
 .btn1 {
-    margin-left: 22%;
+    margin-left: 25%;
     height: 50px;
     width: 150px;
     background-color: #ffffff;
@@ -77,7 +77,9 @@
     margin-top: 20px;
 }
 
-@media (max-width: 1024px) {
+
+
+@media (max-width: 600px) {
     .intro {
         width: 108%;
         height: 10%;
@@ -103,11 +105,48 @@
     }
 
     .btn1 {
-        margin: 250px auto;
+        margin: 250px 30%;
     }
 
     .btn2 {
+        margin: 250px 40%;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+@media (min-width: 601px) and (max-width: 1025px) {
+    .intro {
+        width: 108%;
+        height: 10%;
+        
+    }
+
+    .s {
+        text-align: center;
+        width: 90%;
         margin: 250px auto;
+        font-size: 40px;
+    }
+
+    .p {
+        text-align: center;
+        font-size: 18px;
+        width: 90%;
+        margin: -230px auto;
+    }
+
+    .logo {
+        margin-top: 500px;
+    }
+
+    .btn1 {
+        margin: 250px 120%;
+    }
+
+    .btn2 {
+        margin: 250px 150%;
     }
 
     .logo {
@@ -129,7 +168,17 @@
         margin-left: 10%;
         width: 35%;
     }
+    .btn1 {
+        margin: 0px 80%;
+    }
+
+    .btn2 {
+        margin: 0px 95%;
+    }
+    
 }
+
+
 @media (min-width: 1501px) and (max-width: 1700px) {
     .s {
         margin-left: 16%;
@@ -147,6 +196,13 @@
     .btn1 {
         margin-left: 16%;
     }
+    .btn1 {
+        margin: 0px 200%;
+    }
+
+    .btn2 {
+        margin: 0px 215%;
+    }
 }
 @media (min-width: 1701px) and (max-width: 2500px) {
     .s {
@@ -163,7 +219,10 @@
         width: 32%;
     }
     .btn1 {
-        margin-left: 16%;
+        margin-left: 250%;
+    }
+    .btn2 {
+        margin-left: 265%;
     }
 }
 </style>
